@@ -9,25 +9,11 @@
 
 //     gato.chamar()
 
-class Banco {
-    nome: string
-    senha: number
-    saldo: number
-
-    constructor(nomeFornecido: string, saldoFornecido: number) {
-        this.nome = nomeFornecido
-        this.saldo = 1
-        this.senha = 121212
-    }
-    bancoMovimento() {
-        console.log(this.saldo)
-    }
-
-    deposito (v: number){
-        this.saldo += v
-    }
-}
+import { Banco } from "./classe/banco"
+import { transaction } from "./classe/banc"
 
 const banco = new Banco("Bradesco", 100)
 
-banco.bancoMovimento()
+const tr1 = new transaction(100, "12381jha", "321iu321u")
+console.log(tr1)
+// banco.bancoMovimento()
