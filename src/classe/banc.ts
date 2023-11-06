@@ -17,3 +17,5 @@ transactionMovimentacao() {
     console.log(this.valor + this.idDestinatario + this.idRemetente + this.dataDeCriacao)
 }
 }
+
+
