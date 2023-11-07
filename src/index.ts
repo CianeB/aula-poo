@@ -63,3 +63,6 @@ class fucionario extends empresa {
     
 
 }
+
+
+const em = new empresa(Luciane, 332, 1000)
