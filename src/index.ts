@@ -39,30 +39,47 @@ function realizaTransacao (nome1: string, nome2: string, valor: number) {
 // this.senha = 121212
 
 
-    export class empresa {
-        nome: string
-        matricula: number
-        salario: number
-    constructor(nome: string, matricula: number, salario: number){
-        this.nome = nome
-        this.matricula = matricula
-        this.salario = salario
-    }
-    promocao() {
-        console.log(this.nome + "promovido")
-    }
-}
+//     export class empresa {
+//         nome: string
+//         matricula: number
+//         salario: number
+//     constructor(nome: string, matricula: number, salario: number){
+//         this.nome = nome
+//         this.matricula = matricula
+//         this.salario = salario
+//     }
+//     promocao() {
+//         console.log(this.nome + "promovido")
+//     }
+// }
 
-class fucionario extends empresa {
-    cargo: string
-    constructor(nome: string, matricula: number, salario: number, cargoDoFuncionario: string){
-        super(nome, matricula, salario)
-        this.cargo = cargoDoFuncionario
-    }
+// class fucionario extends empresa {
+//     cargo: string
+//     constructor(nome: string, matricula: number, salario: number, cargoDoFuncionario: string){
+//         super(nome, matricula, salario)
+//         this.cargo = cargoDoFuncionario
+//     }
 
     
 
+// }
+
+
+// const em = new empresa{Luciane, 332, 1000)
+
+ const produto = {
+    nome:"mala",
+    quantidade: 1,
+    preco: 100,
+    vender(){
+        console.log("produto vendido")
+    }, 
+    aumento (acrescimo:number){
+        this.preco +=acrescimo
+        console.log("valor da mala e", produto)
+
+    }
 }
 
-
-const em = new empresa(Luciane, 332, 1000)
+produto.vender()
+produto.aumento(15)
