@@ -141,7 +141,7 @@ import { transaction } from "./classe/banc"
 //     console.log('Sexo: ${pessoa.getSexo()}')
 //     console.log('Endereco: ${pessoa.getEndereco()}')
 
-// // Aterando Alguns Atributos:
+// // Alterando Alguns Atributos:
 // pessoa.setNome('João');
 // pessoa.setIdade(46);
 // pessoa.setEndereco('Trav Alegria')
@@ -150,106 +150,109 @@ import { transaction } from "./classe/banc"
 // console.log('Nome: ${pessoa.getNome()}')
 
 
-class caminhao {
-    private marca: string;
-    private modelo: string;
-    private ano: number;
-    private valor: number;
+// class caminhao {
+//     private marca: string;
+//     private modelo: string;
+//     private ano: number;
+//     private valor: number;
     
-    constructor(marca: string, modelo: string, ano: number, valor: number) {
-      this.marca = marca;
-      this.modelo = modelo;
-      this.ano = ano;
-      this.valor = valor;
-    }
+//     constructor(marca: string, modelo: string, ano: number, valor: number) {
+//       this.marca = marca;
+//       this.modelo = modelo;
+//       this.ano = ano;
+//       this.valor = valor;
+//     }
   
   
 //  Método para acessaros atributos:
-getMarca(): string {
-    return this.marca;
-}
+// getMarca(): string {
+//     return this.marca;
+// }
   
-  getModelo(): string {
-    return this.modelo;
-  }
+//   getModelo(): string {
+//     return this.modelo;
+//   }
   
-  getAno(): number {
-    return this.ano;
-  }
+//   getAno(): number {
+//     return this.ano;
+//   }
   
-  getValor(): number {
-    return this.valor;
-  }
+//   getValor(): number {
+//     return this.valor;
+//   }
   
-  //Método para alterar os atributos:
-  setMarca(novaMarca: string): void {
-    this.marca = novaMarca
-  }
+//   //Método para alterar os atributos:
+//   setMarca(novaMarca: string): void {
+//     this.marca = novaMarca
+//   }
 
-  setModelo(novaModelo: string){
-    this.marca = novaModelo
-  }
+//   setModelo(novaModelo: string){
+//     this.marca = novaModelo
+//   }
 
-  setAno(novoAno: number){
-    this.ano = novoAno
-  }
+//   setAno(novoAno: number){
+//     this.ano = novoAno
+//   }
 
-  setValor(novoValor: number){
-    this.valor = novoValor
-  }
+//   setValor(novoValor: number){
+//     this.valor = novoValor
+//   }
   
-}
+// }
+
+
+
 // Ex. de uso da Classe Caminhao
-let caminhao = new Caminhao('Mercedes', 'Baú', 2000, '40000')
-    console.log('Marca: ${pessoa.getMarca()}')
-    console.log('Modelo: ${pessoa.getModelo()}')
-    console.log('Ano: ${pessoa.getAno()}')
-    console.log('Valor: ${pessoa.getValor()}')
+// let caminhao = new Caminhao('Mercedes', 'Baú', 2000, '40000')
+//     console.log('Marca: ${pessoa.getMarca()}')
+//     console.log('Modelo: ${pessoa.getModelo()}')
+//     console.log('Ano: ${pessoa.getAno()}')
+//     console.log('Valor: ${pessoa.getValor()}')
 
-// Aterando Alguns Atributos:
-caminhao.setMarca('Ford');
-caminhao.setModelo(2020);
-caminhao.setValor('50000');
+// // Aterando Alguns Atributos:
+// caminhao.setMarca('Ford');
+// caminhao.setModelo(2020);
+// caminhao.setValor(50000);
 
-console.log('---Após alterações---');
-console.log('Nome: ${pessoa.getNome()}')
+// console.log('---Após alterações---');
+// console.log('Nome: ${pessoa.getNome()}')
 
 
-  class Felino {
-    private tipo: string;
-    private cor: string;
-    private tamanho: number;
+//   class Felino {
+//     private tipo: string;
+//     private cor: string;
+//     private tamanho: number;
 
-    constructor(tipo: string, cor: string, tamanho: number) {
-      this.tipo = tipo;
-      this.cor = cor;
-      this.tamanho = tamanho;
+//     constructor(tipo: string, cor: string, tamanho: number) {
+//       this.tipo = tipo;
+//       this.cor = cor;
+//       this.tamanho = tamanho;
   
-    }
+//     }
 
-    getTipo(): string {
-        return this.tipo;
-    }
+//     getTipo(): string {
+//         return this.tipo;
+//     }
 
-    getCor(): string {
-        return this.cor;
-    }
+//     getCor(): string {
+//         return this.cor;
+//     }
 
-    getTamanho(): number {
-        return this.tamanho;
-    }
+//     getTamanho(): number {
+//         return this.tamanho;
+//     }
 
-    //Método para alterar os atributos:   
-  setTipo(novoTipo: string): void {
-    this.tipo = novoTipo
-  }
+//     //Método para alterar os atributos:   
+//   setTipo(novoTipo: string): void {
+//     this.tipo = novoTipo
+//   }
 
-  setCor(novaCor: string): void {
-    this.tipo = novaCor
-  }
+//   setCor(novaCor: string): void {
+//     this.tipo = novaCor
+//   }
 
-  setTamanho(novoTamanho: string): void {
-    this.tipo = novoTamanho
-  }
-  }
+//   setTamanho(novoTamanho: string): void {
+//     this.tipo = novoTamanho
+//   }
+//   }
   
